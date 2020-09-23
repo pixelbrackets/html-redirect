@@ -36,11 +36,15 @@ https://gitlab.com/pixelbrackets/html-redirect/
 
 Mirror https://github.com/pixelbrackets/html-redirect/
 
+## Demo
+
+⌨️ [`php tests/demo.php`](tests/demo.php).
+
 ## Usage
 
 1. Get the markup to redirect to `https://example.com` and write to file
    ```php
-   $redirectMarkup = HtmlRedirect::redirect('https://example.com/');
+   $redirectMarkup = \Pixelbrackets\HtmlRedirect\HtmlRedirect::redirect('https://example.com/');
    file_put_contents('/var/www/example/index.html', $redirectMarkup);
    ```
 

@@ -1,1 +1,4 @@
 $redirectMarkup = HtmlRedirect::redirect('https://example.com/');
+
+// Returns HTML markup to redirect to another page
+// … meta http-equiv="refresh" … window.location.href … a href …
