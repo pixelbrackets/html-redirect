@@ -1,0 +1,9 @@
+{
+    "name": "pixelbrackets/html-redirect",
+    "description": "Generate HTML markup to redirect a request instead of sending a location header",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "autoload": {
+        "psr-4": {"Pixelbrackets\\HtmlRedirect\\": "src/"}
+    }
+}
