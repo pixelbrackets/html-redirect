@@ -1,0 +1,1 @@
+$redirectMarkup = HtmlRedirect::redirect('https://example.com/');
